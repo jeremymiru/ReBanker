@@ -6,7 +6,7 @@
 html {
   font-size: clamp(14px, 2.5vw, 18px);
   scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+
   background: var(--navy);
   font-family: var(--font);
 }
@@ -15,6 +15,12 @@ html {
 img, video {
   max-width: 100%;
   height: auto;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
